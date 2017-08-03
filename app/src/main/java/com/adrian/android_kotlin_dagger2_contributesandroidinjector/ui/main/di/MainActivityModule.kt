@@ -3,7 +3,6 @@ package com.adrian.android_kotlin_dagger2_contributesandroidinjector.ui.main.di
 import com.adrian.android_kotlin_dagger2_contributesandroidinjector.data.ApiService
 import com.adrian.android_kotlin_dagger2_contributesandroidinjector.ui.main.MainActivity
 import com.adrian.android_kotlin_dagger2_contributesandroidinjector.ui.main.MainModel
-import com.adrian.kotlinrecyclerviewdagger.main.di.ActivityScope
 import dagger.Module
 import dagger.Provides
 
