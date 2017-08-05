@@ -28,10 +28,9 @@ android {
     }
 }
 
-kapt {
-    generateStubs = true
-}
-
+//kapt {
+//    generateStubs = true
+//}
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])

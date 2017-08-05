@@ -8,4 +8,8 @@ import com.adrian.android_kotlin_dagger2_contributesandroidinjector.data.ApiServ
 
 class MainModel constructor(val apiService: ApiService) {
 
+    fun callApiService() {
+        apiService.fakeApiCall()
+    }
+
 }

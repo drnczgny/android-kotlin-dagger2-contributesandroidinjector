@@ -15,9 +15,6 @@ import javax.inject.Singleton
 @Component(modules = arrayOf(AppModule::class, ActivityBuilderModule::class, AndroidSupportInjectionModule::class))
 interface AppComponent {
 
-//    @Component.Builder
-//    abstract class Builder : AndroidInjector.Builder<MyApplication>()
-
     @Component.Builder
     interface Builder {
         @BindsInstance

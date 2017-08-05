@@ -1,5 +1,7 @@
 package com.adrian.android_kotlin_dagger2_contributesandroidinjector.data
 
+import android.util.Log
+
 /**
  * Created by cadri on 2017. 08. 03..
  */
@@ -7,7 +9,7 @@ package com.adrian.android_kotlin_dagger2_contributesandroidinjector.data
 class ApiService constructor() {
 
     fun fakeApiCall() {
-        println("fake API call")
+        Log.i("ApiService", "fake API call...");
     }
 
 }

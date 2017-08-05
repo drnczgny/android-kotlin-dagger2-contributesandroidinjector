@@ -2,6 +2,7 @@ package com.adrian.android_kotlin_dagger2_contributesandroidinjector.di
 
 import com.adrian.android_kotlin_dagger2_contributesandroidinjector.ui.main.MainActivity
 import com.adrian.android_kotlin_dagger2_contributesandroidinjector.ui.main.di.MainActivityModule
+import com.adrian.kotlinrecyclerviewdagger.main.di.ActivityScope
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 
@@ -12,7 +13,7 @@ import dagger.android.ContributesAndroidInjector
 @Module
 abstract class ActivityBuilderModule {
 
-//    @ActivityScope
+    @ActivityScope
     @ContributesAndroidInjector(modules = arrayOf(MainActivityModule::class))
     abstract fun bindMainActivity(): MainActivity
 
