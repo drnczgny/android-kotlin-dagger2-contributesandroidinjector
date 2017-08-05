@@ -1,4 +1,4 @@
-package com.adrian.android_kotlin_dagger2_contributesandroidinjector.ui.main
+package com.adrian.android_kotlin_dagger2_contributesandroidinjector.ui.main.model
 
 import com.adrian.android_kotlin_dagger2_contributesandroidinjector.data.ApiService
 

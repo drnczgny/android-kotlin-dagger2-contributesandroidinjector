@@ -1,8 +1,8 @@
 package com.adrian.android_kotlin_dagger2_contributesandroidinjector.ui.main.di
 
 import com.adrian.android_kotlin_dagger2_contributesandroidinjector.data.ApiService
-import com.adrian.android_kotlin_dagger2_contributesandroidinjector.ui.main.MainActivity
-import com.adrian.android_kotlin_dagger2_contributesandroidinjector.ui.main.MainModel
+import com.adrian.android_kotlin_dagger2_contributesandroidinjector.ui.main.view.MainActivity
+import com.adrian.android_kotlin_dagger2_contributesandroidinjector.ui.main.model.MainModel
 import dagger.Module
 import dagger.Provides
 
@@ -11,7 +11,7 @@ import dagger.Provides
  */
 
 @Module
-class MainActivityModule {
+class MainModule {
 
     @Provides
     fun providesMainRouter(mainActivity: MainActivity) = mainActivity
