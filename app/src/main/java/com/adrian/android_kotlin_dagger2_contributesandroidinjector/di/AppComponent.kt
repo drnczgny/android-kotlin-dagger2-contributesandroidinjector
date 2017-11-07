@@ -1,6 +1,5 @@
 package com.adrian.android_kotlin_dagger2_contributesandroidinjector.di
 
-import android.app.Application
 import com.adrian.android_kotlin_dagger2_contributesandroidinjector.MyApplication
 import dagger.BindsInstance
 import dagger.Component
@@ -18,7 +17,7 @@ interface AppComponent {
     @Component.Builder
     interface Builder {
         @BindsInstance
-        fun application(application: Application): Builder
+        fun application(myApplication: MyApplication): Builder
 
         fun build(): AppComponent
     }
